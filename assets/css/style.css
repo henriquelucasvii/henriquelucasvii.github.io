@@ -16,32 +16,34 @@ body {
 /* Header */
 header {
     transition: 0.3s;
-}
 
-header a{
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-}
 
-a:hover {
-    opacity: 0.7;
-}
+    a{
+        color: #fff;
+        font-weight: bold;
+        text-decoration: none;
+        
+        &:hover {
+            opacity: 0.7;
+        }   
+    }
 
-.nav-bar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: transparent;
-    height: 8vh;
-}
+    .nav-bar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: transparent;
+        height: 8vh;
+    }
 
-.nav-list {
-    display: flex;
-    list-style: none;
-}
+    .nav-list {
+        display: flex;
+        list-style: none;
+    }
 
-.nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
+    .nav-list li {
+        letter-spacing: 3px;
+        margin-left: 32px;
+    }
 }
+/* Fim do Header */
