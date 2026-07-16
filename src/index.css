@@ -5,6 +5,10 @@
     src: url("../public/fonts/Bestime.ttf") format("ttf");
 }
 
-h2 {
+h2, a {
     font-family: "Bestime", sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
 }
