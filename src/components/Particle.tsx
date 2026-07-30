@@ -1,5 +1,5 @@
 import Particles, { ParticlesProvider } from "@tsparticles/react";
-import { particlesInit, useParticlesConfig } from "./particle";
+import { particlesInit, useParticlesConfig } from "../lib/particle";
 
 function Particle() {
   const { particlesLoaded, options } = useParticlesConfig();
