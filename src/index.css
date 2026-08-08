@@ -5,10 +5,19 @@
     src: url("../public/fonts/Bestime.ttf") format("ttf");
 }
 
-h2, a {
-    font-family: "Bestime", sans-serif;
+body {
+  cursor: url('/public/cursor/BlackPixel--cursor--SweezyCursors.png'), auto;
 }
 
-p {
+button, a:hover {
+    cursor: url('/public/cursor/BlackPixel--pointer--SweezyCursors.png'), auto;
+}
+
+h2 {
+    font-family: "Bestime", sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+p, a {
   font-family: 'Montserrat', sans-serif;
 }
