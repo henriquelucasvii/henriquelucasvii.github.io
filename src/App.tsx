@@ -1,5 +1,5 @@
-// import { useState, useMemo, useCallback } from "react";
 import Experience from "./components/Experience.tsx";
+import Footer from "./components/Footer.tsx";
 import Hero from "./components/Hero";
 import Particle from "./components/Particle.tsx"
 import Projects from "./components/Projects.tsx";
@@ -15,6 +15,7 @@ function App() {
         <Stack />
         <Experience />
         <Projects />
+        <Footer />
       </main>
     </>
   );
