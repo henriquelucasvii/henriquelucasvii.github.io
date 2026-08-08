@@ -6,11 +6,11 @@
 }
 
 body {
-  cursor: url('/public/cursor/BlackPixel--cursor--SweezyCursors.png'), auto;
+  cursor: url('/cursor/BlackPixel--cursor--SweezyCursors.png'), auto;
 }
 
 button, a:hover {
-    cursor: url('/public/cursor/BlackPixel--pointer--SweezyCursors.png'), auto;
+    cursor: url('/cursor/BlackPixel--pointer--SweezyCursors.png'), auto;
 }
 
 h2 {

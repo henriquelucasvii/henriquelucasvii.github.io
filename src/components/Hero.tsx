@@ -1,3 +1,5 @@
+import picture from "../assets/photos/picture.jpeg"
+
 function Hero()  {
   const handleVerProjetos = () => {
     document.getElementById("projetos")?.scrollIntoView({ behavior: "smooth" });
@@ -12,7 +14,7 @@ function Hero()  {
       
       <div className="w-36 h-36 md:w-44 md:h-44 rounded-full bg-white shrink-0 overflow-hidden">
         <img
-          src="src/assets/photos/picture.jpeg"
+          src={picture}
           alt="Foto de perfil"
           className="w-full h-full object-cover"
         />
